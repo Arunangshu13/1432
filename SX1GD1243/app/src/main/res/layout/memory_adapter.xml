@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/editMemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="#ffc107"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/deleteMemo"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Delete"
+            android:textColor="#dc3545"
+            android:textSize="17dp" />
+
+    </TableRow>
+    <TextView
+        android:id="@+id/memoDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#343a40"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:text="To be overwritten by date time"/>
+    <TextView
+        android:textColor="#343a40"
+        android:id="@+id/memoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="To be overwritten by title"/>
+    <TextView
+        android:textColor="#343a40"
+        android:id="@+id/memoContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:layout_marginRight="10dp"
+        android:text="To be overwritten by memo content"/>
+    <TextView
+        android:id="@+id/decorator"
+        android:layout_gravity="center"
+        android:textColor="#6610f2"
+        android:text="__________________________________________"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "105181922181",
+    "project_id": "sx1gd1432",
+    "storage_bucket": "sx1gd1432.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105181922181:android:db3076ea54630b5aebbaec",
+        "android_client_info": {
+          "package_name": "com.fire.sx1gd1243"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105181922181-jevb0urr7saoase1bp9tqfcsohimvaka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChGD45Nfx8Ib6QlmTA5I7-3JtWvEbzsl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105181922181-jevb0urr7saoase1bp9tqfcsohimvaka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
